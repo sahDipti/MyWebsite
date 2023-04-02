@@ -2,6 +2,8 @@ body {
     margin: 0;   
     text-align: center;
     font-family: verdana,monospace;
+    color: #40514E;
+    background-color: rgb(254, 248, 239);
 }  
 hr {
     border: none;
@@ -12,15 +14,15 @@ hr {
 }
 
 h2 {
-    color: #11999E;
+    color: #46bcc1;
     font-weight: normal;
     font-size: 40px;
 }
 
 .top-container {
-    background-color: #d4e7f9;
+    background-color: #E4F9F5;
     padding: 70px 0px 0px 0px;
-    color: #11999E;
+    color: #60c1c4;
     font-size: 25px;
 }
 .bottom-cloud {
@@ -63,8 +65,8 @@ h2 {
 }
 
 .bottom-container{
-    background-color: #11999E;
-    color: aliceblue;
+    background-color: #4fbfc3;
+    color: rgb(237, 247, 255);
     font-size: 20px;
     padding-bottom: 10px;
 }
@@ -97,4 +99,14 @@ h2 {
     background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 35px;
+}
+  a:hover {
+    background-color: #ffffff;
+    font-size: xx-large;
+    color: #4fbfc3;
   }
